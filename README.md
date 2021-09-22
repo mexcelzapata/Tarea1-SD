@@ -5,7 +5,8 @@ Este repositorio tiene como objetivo poder dejar los diferentes archivos que per
 
 
 ## Buscador (API - REST)
-
+Este modulo consta de la busqueda de una palabra que se quiera buscar en el inventario, para ello, se implementó una busqueda atraves del metodo `HTTP-Request`.
+Para ello, tenemos el archivo **"Buscador"**
 
 
 
