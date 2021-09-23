@@ -32,7 +32,7 @@ una vez instaladas todas las componentes, para realizar las busquedas es necesar
 
 
 ## Cache (Reddis)
-En este caso, tenemos que 
+En este caso, tenemos que la componente que actuará como caché dentro del sistema será `Redis`, para ello, es necesario instalarlo https://redis.io/
 
 
 
