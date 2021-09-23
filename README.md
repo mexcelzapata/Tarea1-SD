@@ -26,7 +26,7 @@ Una vez instalado, es necesario abrir la terminal y ubicatrnos en el documento *
 ```
 python3 API_client.py
 ```
-una vez instaladas todas las componentes, para realizar las busquedas es necesario en el navegador dirigirnos a: `Localhost:3000\inventory\search?=`**BUSCAR**
+una vez instaladas todas las componentes, para realizar las busquedas es necesario en el navegador dirigirnos a: `Localhost:3000\inventory\search?=`**BUSCAR** 
 
 
 
