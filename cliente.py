@@ -7,17 +7,6 @@ import json
 from google.protobuf.json_format import MessageToJson
 from flask import request, jsonify
 
-#pasos:
-    #1-recivir la palabra por el cliente                                             ----------------------    #listo!
-    #2-pasarla por el cache                                                          ----------------------    #listo!
-        #--(si lo encuentra:)                                                        ----------------------    #listo!
-            #enviarlo                                                                ----------------------    #listo!
-        #--(si no lo encuentra:)                                                     ----------------------    #listo!
-            #pasarlo al servidor donde debe buscar en la base de datos (archivo)     ----------------------    #listo!
-                #si lo encuentra enviarlo al cliente                                 ----------------------    #listo!
-                    #guardarlo en el cache                                           ----------------------    #listo!
-                #si no, enviar un codigo de error o algo!                         
-
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
