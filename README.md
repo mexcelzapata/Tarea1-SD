@@ -38,6 +38,7 @@ En este caso tenemos que configurar el cache para que aplique una "Police" LRU, 
 ```
 $redis-cli
 1) config set maxmemory-policy volatile-lru
+2) config set maxmemory-samples 5
 ```
 
 #### Máximo de Cache
