@@ -1,4 +1,4 @@
-# Tarea1-SD
+# Tarea1-SD (Pokemones)
 Este repositorio tiene como objetivo poder dejar los diferentes archivos que permiten dar respuesta a la tarea N°1. En este caso consta de 3 modulos: Buscador (API-REST), Cache y inventario.
 
 
@@ -54,13 +54,26 @@ Para poder conectar las componentes dentro de la misma red, en este caso el cach
 ```
 pip install grpcio grpcio-tools
 ```
+Para generar la conexión con gRPC, se utilizó el comando:
+```
+python3 -m grpc_tools.protoc --proto_path=. ./search.proto --python_out=. --grpc_python_out=.
+```
+Este comando genera los archivos con las funciones o metodos necesarios para la interaccion Cliente-Servidor.
 
+## Comandos para ejecucion
+Una vez configurado cada punto, es necesario poder ejecutar los archivos que tenemos acá.
+### Servidor
+```
+pyton3 servidor.py
+```
+### Cliente
+```
+pyton3 cliente.py
+```
 
+Es importante mencionar que la tabla de cache, se encuentra vacía desde un principio, por ende, es necesario ir realizando consultas para que se vayan guardando en cache.
 
-
-
-
-
+una vez instaladas todas las componentes, para realizar las busquedas es necesario en el navegador dirigirnos a: `Localhost:3000\inventory\search?=`**BUSCAR** (ingresamos el pokemon que queremos buscar).
 
 
 
