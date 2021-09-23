@@ -34,16 +34,19 @@ En este caso, tenemos que la componente que actuará como caché dentro del sist
 Ya instalado redis, es necesario configurar tanto su "tamaño máximo" de caché como la "Police" que en este caso es LRU.
 
 #### Police
-En este caso tenemos que configurar el cache para que aplique una "Police" LRU, para ello tenemos que: 
+En este caso tenemos que configurar el cache para que aplique una "Police" LRU, para ello tenemos que entrar al cliente, para ello: 
 
 ```
 $redis-cli
 1) config set maxmemory-policy volatile-lru
 ```
 
-
 #### Máximo de Cache
-
+Por otro lado, para configurar la capacidad máxima del cache, que en este caso dejaremos un almacenamiento maximo de `20 MB`, tenemos que:
+```
+$redis-cli
+1) config set maxmemory 20mb
+```
 
 
 ## gRPC
