@@ -45,7 +45,7 @@ $redis-cli
 Por otro lado, para configurar la capacidad máxima del cache, que en este caso dejaremos un almacenamiento maximo de `20 MB`, tenemos que:
 ```
 $redis-cli
-1) config set maxmemory 10Mb
+1) config set maxmemory 1Mb
 ```
 
 ## Inventario (gRPC)
