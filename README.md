@@ -30,8 +30,7 @@ una vez instaladas todas las componentes, para realizar las busquedas es necesar
 
 
 ## Cache (Reddis)
-En este caso, tenemos que la componente que actuará como caché dentro del sistema será `Redis`, para ello, es necesario instalarlo https://redis.io/ ; Ya instalado, nos ejecutamos 
-Ya instalado redis, es necesario configurar tanto su "tamaño máximo" de caché como la "Police" que en este caso es LRU.
+En este caso, tenemos que la componente que actuará como caché dentro del sistema será `Redis`, para ello, es necesario instalarlo https://redis.io/ ; Ya instalado, es necesario configurar tanto su "tamaño máximo" de caché como la "Police" que en este caso es LRU.
 
 #### Police
 En este caso tenemos que configurar el cache para que aplique una "Police" LRU, para ello tenemos que entrar al cliente, para ello: 
