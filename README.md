@@ -22,4 +22,15 @@ sudo apt install python3.8.10
 pip install flask
 ```
 
+Una vez instalado, es necesario abrir la terminal y ubicatrnos en el documento **API_client.py** y lo ejecutamos:
+```
+python3 API_client.py
+```
+
+
+
+
+
+
+
 
