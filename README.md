@@ -26,14 +26,27 @@ Una vez instalado, es necesario abrir la terminal y ubicatrnos en el documento *
 ```
 python3 API_client.py
 ```
-una vez instaladas todas las componentes, para realizar las busquedas es necesario en el navegador dirigirnos a: `Localhost:3000\inventory\search?=`**BUSCAR** 
-
-
+una vez instaladas todas las componentes, para realizar las busquedas es necesario en el navegador dirigirnos a: `Localhost:3000\inventory\search?=`**BUSCAR**
 
 
 ## Cache (Reddis)
-En este caso, tenemos que la componente que actuará como caché dentro del sistema será `Redis`, para ello, es necesario instalarlo https://redis.io/
+En este caso, tenemos que la componente que actuará como caché dentro del sistema será `Redis`, para ello, es necesario instalarlo https://redis.io/ ; Ya instalado, nos ejecutamos 
+Ya instalado redis, es necesario configurar tanto su "tamaño máximo" de caché como la "Police" que en este caso es LRU.
 
+#### Police
+En este caso tenemos que configurar el cache para que aplique una "Police" LRU, para ello tenemos que: 
+
+```
+$redis-cli
+1) config set maxmemory-policy volatile-lru
+```
+
+
+#### Máximo de Cache
+
+
+
+## gRPC
 
 
 
