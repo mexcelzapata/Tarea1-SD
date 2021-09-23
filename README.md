@@ -45,11 +45,15 @@ $redis-cli
 Por otro lado, para configurar la capacidad máxima del cache, que en este caso dejaremos un almacenamiento maximo de `20 MB`, tenemos que:
 ```
 $redis-cli
-1) config set maxmemory 20mb
+1) config set maxmemory 10Mb
 ```
 
-## gRPC
+## Inventario (gRPC)
+Para poder conectar las componentes dentro de la misma red, en este caso el cache con el inventario, se utilizó la herramienta gRPC. Para ello, es necesario instalar gRPC, con el siguientes comando: 
 
+```
+pip install grpcio grpcio-tools
+```
 
 
 
