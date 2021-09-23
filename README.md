@@ -73,7 +73,7 @@ pyton3 cliente.py
 
 Es importante mencionar que la tabla de cache, se encuentra vacía desde un principio, por ende, es necesario ir realizando consultas para que se vayan guardando en cache.
 
-una vez instaladas todas las componentes, para realizar las busquedas es necesario en el navegador dirigirnos a: `Localhost:3000\inventory\search?=`**BUSCAR** (ingresamos el pokemon que queremos buscar).
+una vez instaladas todas las componentes, para realizar las busquedas es necesario en el navegador dirigirnos a: `Localhost:3000\inventory\search?=`**BUSCAR** (Se puede ingresar para buscar el o los caracteres que contiene la palabra).
 
 
 
